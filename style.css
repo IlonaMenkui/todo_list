@@ -1,4 +1,4 @@
-.container {
+.todo-component {
     display: block;
     margin: 35%;
     margin-top: 5%;
@@ -28,7 +28,7 @@ li>input[type="checkbox"] {
 
 /*  */
 
-input#new-task {
+.add-item__input {
     font-size: 15px;
     color: #333;
     float: left;
@@ -56,6 +56,10 @@ button {
     outline: none;
 }
 
-.delete {
+.delete-button {
     margin: 10px 0 0 180px;
+}
+
+.items-completed__item label {
+    text-decoration: line-through;
 }
